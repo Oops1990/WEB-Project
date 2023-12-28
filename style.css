@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #ddd;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #bbb;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.about-me {
+    background-color: #ddd;
+    margin: 80px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 9300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-me h2 {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+.work-container {
+    background-color: #ddd;
+        margin: 80px auto;
+        padding: 10px;
+        width: 80%;
+        max-width: 9300px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+}
+
+.work-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.work-container ul {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.work-container ul li {
+    align-self: start;
+    width: 100%;
+}
+
+
+.work-container ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+.work-container ul li a:hover {
+    background-color: #bdbdbd;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.labs-container {
+    background-color: #ddd;
+    margin: 80px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 9300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.labs-container h2 {
+    text-align: center;
+    font-size: 24px;
+
+    font-weight: bold;
+
+}
+
+
+.labs-container ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.labs-container ul li {
+    align-self: start;
+    width: 100%;
+}
+
+.labs-container ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+.labs-container ul li a:hover {
+    background-color: #bdbdbd;
+    border-radius: 5px;
+}
