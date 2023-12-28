@@ -1,0 +1,53 @@
+body > header > nav > ul > li:nth-child(1) {
+    font-weight: bold;
+}
+a:last-child {
+    color:red;
+}
+input:disabled {
+    background-color: gray;
+}
+div > p {
+    font-weight: bolder;
+}
+a[href^="https"] {
+    color:green;    
+}
+input[type="text"]{
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+li:first-child{
+    font-weight: bolder;
+}
+li:first-child, li:last-child {
+    font-size: 24px;
+}
+div p {
+    font-size: 16px;
+}
+input:checked {
+    background-color: lightblue;
+}
+li > a {
+    text-decoration: underline;
+}
+li:nth-child(even){
+    font-weight: bold;
+}
+input[type="text"]:not([disabled]) {
+    background-color: grey;
+}
+p:first-child {
+    font-size: 24px;
+}
+.special + li {
+    text-decoration: line-through;
+}
+p::first-letter {
+    font-size: 36px;
+}
+a::after{
+    content:"↗";
+}
